@@ -19,7 +19,7 @@ namespace assignment1_part4
 
         public override string PersonInfo()
         {
-            return $"\n{FirstName} {LastName} of {Campus} campus has a student ID of {StudentID}";
+            return $"\n{GetFullName()} of {Campus} campus has a student ID of {StudentID}";
         }
     }
 }
